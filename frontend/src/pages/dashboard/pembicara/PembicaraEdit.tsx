@@ -22,7 +22,7 @@ export default function PembicaraEdit() {
     const [isFetching, setIsFetching] = useState<boolean>(true);
     const [apiError, setApiError] = useState<string | null>(null);
 
-    const API_URL = `http://localhost:3000/pembicara/${id}`;
+    const API_URL = `https://fullstackpublishvercel.vercel.app/pembicara/${id}`;
 
     const {
         register,

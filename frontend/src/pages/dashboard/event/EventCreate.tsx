@@ -38,8 +38,8 @@ export default function EventCreate() {
         const fetchData = async () => {
             try {
                 const [resCat, resPem] = await Promise.all([
-                    fetch("http://localhost:3000/categories"),
-                    fetch("http://localhost:3000/pembicara")
+                    fetch("https://fullstackpublishvercel.vercel.app/categories"),
+                    fetch("https://fullstackpublishvercel.vercel.app/pembicara")
                 ]);
                 
                 const catData = await resCat.json();
@@ -64,7 +64,7 @@ export default function EventCreate() {
                 pembicaraId: parseInt(data.pembicaraId, 10),
             };
 
-            const response = await fetch("http://localhost:3000/events", {
+            const response = await fetch("https://fullstackpublishvercel.vercel.app/events", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload), 

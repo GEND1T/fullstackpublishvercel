@@ -30,7 +30,7 @@ export default function EventEdit() {
     const [categories, setCategories] = useState<DropdownItem[]>([]);
     const [pembicaras, setPembicaras] = useState<DropdownItem[]>([]);
 
-    const API_URL = `http://localhost:3000/events/${id}`;
+    const API_URL = `https://fullstackpublishvercel.vercel.app/events/${id}`;
 
     const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm<FormData>({
         resolver: zodResolver(schema)
@@ -41,8 +41,8 @@ export default function EventEdit() {
             try {
                 // Tarik 3 data secara paralel
                 const [catRes, pemRes, eventRes] = await Promise.all([
-                    fetch("http://localhost:3000/categories"),
-                    fetch("http://localhost:3000/pembicara"),
+                    fetch("https://fullstackpublishvercel.vercel.app/categories"),
+                    fetch("https://fullstackpublishvercel.vercel.app/pembicara"),
                     fetch(API_URL)
                 ]);
                 

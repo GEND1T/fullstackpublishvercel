@@ -33,7 +33,7 @@ export default function PembicaraCreate() {
         resolver: zodResolver(schema)
     });
 
-    const API_URL = "http://localhost:3000/pembicara";
+    const API_URL = "https://fullstackpublishvercel.vercel.app/pembicara";
 
     const onSubmit = async (data: FormData) => {
         setApiError(null);

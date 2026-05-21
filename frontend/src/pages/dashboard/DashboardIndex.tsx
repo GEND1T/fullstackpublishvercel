@@ -28,7 +28,7 @@ export default function DashboardIndex() {
     useEffect(() => {
         const fetchDashboardData = async () => {
             try {
-                const response = await fetch("http://localhost:3000/dashboard");
+                const response = await fetch("https://fullstackpublishvercel.vercel.app/dashboard");
                 const result = await response.json();
 
                 if (response.ok && result.success) {

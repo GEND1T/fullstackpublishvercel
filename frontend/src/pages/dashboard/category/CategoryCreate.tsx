@@ -26,7 +26,7 @@ export default function CategoryCreate() {
         resolver: zodResolver(schema)
     });
 
-    const API_URL = "http://localhost:3000/categories";
+    const API_URL = "https://fullstackpublishvercel.vercel.app/categories";
 
     // Fungsi onSubmit sekarang diletakkan di dalam agar memiliki akses ke 'navigate' dan state
     const onSubmit = async (data: FormData) => {

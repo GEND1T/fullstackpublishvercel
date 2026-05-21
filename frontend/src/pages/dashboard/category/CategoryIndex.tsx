@@ -15,7 +15,7 @@ export default function CategoryIndex() {
     const [error, setError] = useState<string | null>(null);
 
     // Ganti URL ini sesuai dengan URL backend Express kamu
-    const API_URL = "http://localhost:3000/categories";
+    const API_URL = "https://fullstackpublishvercel.vercel.app/categories";
 
     // Fungsi untuk mengambil data dari backend
     const fetchCategories = async () => {

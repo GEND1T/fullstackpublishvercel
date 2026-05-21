@@ -21,7 +21,7 @@ export default function CategoryEdit() {
     const [isFetching, setIsFetching] = useState<boolean>(true);
     const [apiError, setApiError] = useState<string | null>(null);
 
-    const API_URL = `http://localhost:3000/categories/${id}`;
+    const API_URL = `https://fullstackpublishvercel.vercel.app/categories/${id}`;
 
     // 2. Inisialisasi useForm (tambahkan fungsi 'reset')
     const {

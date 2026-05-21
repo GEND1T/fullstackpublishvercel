@@ -15,7 +15,7 @@ export default function PembicaraIndex() {
     const [isLoading, setIsLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
-    const API_URL = "http://localhost:3000/pembicara";
+    const API_URL = "https://fullstackpublishvercel.vercel.app/pembicara";
 
     const fetchPembicaras = async () => {
         try {

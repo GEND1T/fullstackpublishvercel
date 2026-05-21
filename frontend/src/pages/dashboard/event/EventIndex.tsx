@@ -22,7 +22,7 @@ export default function EventIndex() {
     const [isLoading, setIsLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
-    const API_URL = "http://localhost:3000/events"; // Sesuaikan URL API
+    const API_URL = "https://fullstackpublishvercel.vercel.app/events"; // Sesuaikan URL API
 
     const fetchEvents = async () => {
         try {
