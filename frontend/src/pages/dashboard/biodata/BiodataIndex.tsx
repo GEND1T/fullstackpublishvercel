@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Biodata() {
     return (
         <div className="max-w-5xl mx-auto flex flex-col gap-8 pb-10 animate-fade-in">
