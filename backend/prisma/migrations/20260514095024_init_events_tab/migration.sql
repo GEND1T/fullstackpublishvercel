@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "categories" ALTER COLUMN "create_at" SET DEFAULT CURRENT_TIMESTAMP;
