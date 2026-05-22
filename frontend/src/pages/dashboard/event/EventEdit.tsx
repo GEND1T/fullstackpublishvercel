@@ -111,7 +111,11 @@ export default function EventEdit() {
                 <Link to="/dashboard/event" className="p-2 text-gray-500 hover:bg-red-50 rounded-lg">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
                 </Link>
-                <h1 className="text-2xl font-bold text-gray-800">Edit Event</h1>
+                
+                <div>
+                    <h1 className="text-2xl font-bold text-gray-800">Edit Event</h1>
+                    <p className="text-sm text-gray-500 mt-1">Ubah informasi event yang sudah ada.</p>
+                </div>
             </div>
 
             <div className="bg-white rounded-xl shadow-md p-8 border border-gray-100">
