@@ -102,6 +102,6 @@ export const deletePembicaraById = async (req: Request<{ id: string }>, res: Res
             res.status(404).json({ success: false, message: 'Pembicara tidak ditemukan' });
             return;
         }
-        res.status(500).json({ success: false, message: "Terjadi kesalahan saat menghapus pembicara", error });
+        res.status(500).json({ success: false, message: "Pembicara sedang dalam event.", error });
     }
 };

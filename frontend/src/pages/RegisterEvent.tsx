@@ -7,6 +7,7 @@ import { Select } from "../components/ui/Select";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import Button from "../components/ui/Button";
+import { Link } from "react-router-dom";
 
 
 
@@ -50,41 +51,48 @@ export default function RegisterEvent(){
             </div>
 
             <form onSubmit={handleSubmit(onSubmit)}>
-
+                <div className="mt-2">
                 <InputText
                     label="Nama"
                     nama="nama"
                     register={register}
                     error={errors.nama?.message}
                 />
+                </div>
+                <div className="mt-2">
                 <InputText
                     label="Email"
                     nama="email"
                     register={register}
                     error={errors.email?.message}
-                />
-
+                    />
+                </div>
+                <div className="mt-2">
                 <InputPassword
                     label="Password"
                     nama="password"
                     register={register}
                     error={errors.password?.message} 
-                />
+                    />
+                </div>
+                <div className="mt-2">
                 <InputPassword
-                    label="Password_confirm"
+                    label="Password"
                     nama="password_confirm"
                     register={register}
                     error={errors.password_confirm?.message} 
                 />
-
+                </div>
+                <div className="mt-2">
                 <TextArea 
                     label="Bio"
                     name="bio"
                     register={register}
                     error={errors.bio?.message}
                 />
-
-                <Select
+                </div>
+                <div className="mt-2">
+                <Select 
                     label="Event"
                     name="event"
                     register={register}
@@ -94,9 +102,14 @@ export default function RegisterEvent(){
                         { label: "Lomba Modif Knalpot", value: "Lomba Modif Knalpot" },
                     ]}
                 />
+                </div>
 
-                <div>
+                <div className="pt-10">
                     <Button type="submit" label="Daftar"/>
+                </div>
+
+                <div className="mt-5">
+                    Sudah punya Akun? <Link to="/login" className="text-red-600">Masuk Disini</Link>
                 </div>
             </form>
         </div>

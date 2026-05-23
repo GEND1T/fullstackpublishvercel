@@ -111,12 +111,12 @@ export default function DashboardIndex() {
             bg: "bg-amber-50" 
         },
         { 
-            title: "Efisiensi Smart Card", 
-            value: "+20%", 
+            title: "Progress Project UTS", 
+            value: "100%", 
             icon: "M13 10V3L4 14h7v7l9-11h-7z", 
             color: "text-red-600", 
             bg: "bg-red-50", 
-            subtitle: "Waktu Registrasi" 
+            subtitle: "good" 
         },
     ];
 
@@ -131,7 +131,7 @@ export default function DashboardIndex() {
                 <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
                     <div>
                         <h1 className="text-3xl font-bold tracking-tight mb-2">
-                            Selamat Datang kembali, Afin! 👋
+                            Selamat Datang kembali, Afin! 
                         </h1>
                         <p className="text-red-100 max-w-xl text-sm md:text-base leading-relaxed">
                             Pusat kendali Invofest sudah siap. Pantau jadwal, kelola pembicara, dan pastikan seluruh sistem berjalan otomatis dan efisien hari ini.
