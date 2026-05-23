@@ -13,7 +13,7 @@
 [Project Deploy](https://afin.monolestarifish.web.id/Login)
  _email dan password menggunakan_ **NIM**
 
-[Video Demo](https://placeholder.com)
+[Video Demo](https://youtu.be/oefSeIRUkm0?si=r3FyvQH8qjoMlP8i)
 
 ## 🛠️ Teknologi yang Digunakan
 
