@@ -33,14 +33,19 @@ Ikuti langkah mudah ini untuk menjalankan proyek di komputer lokal Anda:
    ```cmd
    cd nama-proyek
    ```
-3. **Instal dependensi**
+3. **Masuk ke direktori frontend**
+   ```cmd
+   cd frontend
+   ```
+4. **Instal dependensi**
    ```cmd
    npm install
    ```
-4. **Jalankan website**
+5. **Jalankan website**
    ```cmd
    npm run dev
    ```
+6. **Lakukan Ulang untuk menjalankan backend**
 
 ## 📄 Lisensi
 
