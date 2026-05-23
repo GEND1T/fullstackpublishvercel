@@ -10,10 +10,10 @@
 > Website SinglePage dengan dashboard admin untuk menejemen CRUD data Event.
 
 <!-- Ganti URL di bawah dengan link gambar demo proyek Anda -->
-![Project Deploy](https://afin.monolestarifish.web.id/Login)
+[Project Deploy](https://afin.monolestarifish.web.id/Login)
  _email dan password menggunakan_ **NIM**
 
-![Video Demo](https://placeholder.com)
+[Video Demo](https://placeholder.com)
 
 ## 🛠️ Teknologi yang Digunakan
 
