@@ -27,7 +27,7 @@ Ikuti langkah mudah ini untuk menjalankan proyek di komputer lokal Anda:
 
 1. **Klon repositori ini**
    ```cmd
-   git clone [https://github.com](https://github.com/GEND1T/fullstackpublishvercel.git)
+   git clone https://github.com/GEND1T/fullstackpublishvercel.git
    ```
 2. **Masuk ke direktori proyek**
    ```cmd
@@ -42,22 +42,9 @@ Ikuti langkah mudah ini untuk menjalankan proyek di komputer lokal Anda:
    npm run dev
    ```
 
-## 💡 Cara Penggunaan
-
-Setelah aplikasi berjalan, buka `http://localhost:3000` di peramban Anda. 
-
-```javascript
-// Contoh potongan kode cara memanggil fungsi utama aplikasi Anda
-import { hitungOtomatis } from 'nama-proyek';
-
-const hasil = hitungOtomatis(data);
-console.log(hasil);
-```
-
-
 ## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detailnya.
 
 ---
-💡 *Dibuat dengan 💖 oleh [@Gend1t](https://github.com)*
+💡 *Dibuat dengan 💖 oleh [@GEND1T](https://github.com)*
