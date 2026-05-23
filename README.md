@@ -27,7 +27,7 @@ Ikuti langkah mudah ini untuk menjalankan proyek di komputer lokal Anda:
 
 1. **Klon repositori ini**
    ```cmd
-   git clone https://github.com
+   git clone [https://github.com](https://github.com/GEND1T/fullstackpublishvercel.git)
    ```
 2. **Masuk ke direktori proyek**
    ```cmd
