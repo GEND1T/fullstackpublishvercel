@@ -1,25 +1,19 @@
-- **Nama : Muhammad Afin Aditya 
-- NIM : 24090096
-- Kelas : 4C
-- Prodi Teknik Informatika**
+# Biodata ✨
 
-
-- **LINK PROJECT**
-- https://afin.monolestarifish.web.id/Login
-- _email dan password menggunakan_ **NIM**
-
-- **LINK YOUTUBE**
+- **Nama :** Muhammad Afin Aditya 
+- **NIM :** 24090096
+- **Kelas :** 4C
+- **Prodi :** Teknik Informatika
 
 
 # 🚀 Project FullStack Invofest 
-
-[![Mit License](https://shields.io)](https://choosealicense.com)
-[![PRs Welcome](https://shields.io)](http://makeapullrequest.com)
-
 > Website SinglePage dengan dashboard admin untuk menejemen CRUD data Event.
 
 <!-- Ganti URL di bawah dengan link gambar demo proyek Anda -->
-![Demo Aplikasi](https://placeholder.com)
+![Project Deploy](https://afin.monolestarifish.web.id/Login)
+ _email dan password menggunakan_ **NIM**
+
+![Video Demo](https://placeholder.com)
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -32,19 +26,19 @@
 Ikuti langkah mudah ini untuk menjalankan proyek di komputer lokal Anda:
 
 1. **Klon repositori ini**
-   ```bash
+   ```cmd
    git clone https://github.com
    ```
 2. **Masuk ke direktori proyek**
-   ```bash
+   ```cmd
    cd nama-proyek
    ```
 3. **Instal dependensi**
-   ```bash
+   ```cmd
    npm install
    ```
-4. **Jalankan aplikasi**
-   ```bash
+4. **Jalankan website**
+   ```cmd
    npm run dev
    ```
 
