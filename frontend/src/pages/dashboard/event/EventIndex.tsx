@@ -73,7 +73,8 @@ export default function EventIndex() {
         const date = new Date(dateString);
         return new Intl.DateTimeFormat('id-ID', {
             dateStyle: 'medium',
-            timeStyle: 'short'
+            timeStyle: 'short',
+            timeZone: 'UTC'
         }).format(date);
     };
 

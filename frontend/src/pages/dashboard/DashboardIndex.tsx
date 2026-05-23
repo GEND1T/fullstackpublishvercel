@@ -57,6 +57,7 @@ export default function DashboardIndex() {
                 year: "numeric",
                 hour: "2-digit",
                 minute: "2-digit",
+                timeZone: 'UTC',
             }) + " WIB";
         } catch (e) {
             console.error("Error formatting date:", e);
